@@ -5,7 +5,8 @@ import LOGO from "./logo.svg";
 export const App = () => {
   return (
     <>
-      <h1>Hello World</h1>
+      <h1>Hello World - {process.env.NODE_ENV}</h1>
+      <p>Name: {process.env.name}</p>
       <p>Image</p>
       <img src={IMAGE} alt="test image" />
       <p>SVG</p>
