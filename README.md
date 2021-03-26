@@ -13,7 +13,7 @@ We can feel more comfortable with a complete control of all configuration of our
 - Basic react app with TypeScript and Webpack 5 (first commit)
 - Allow rendering images ans SVGs
 - Setup multiple environments like dev or prod
-- React refresh
+- React refresh: allows hot reloading while preserve the state of components
 - Linting with ESLint
 - Code formatting with Prettier
 - Husky
